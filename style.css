@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+
+.container {
+    width: 100%;
+}
+
+/* Header */
+.main_header {
+    background: #222222;
+}
+
+.central_header_block {
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo_and_search {
+    display: flex;
+    align-content: center;
+    max-width: 111px;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.header_search_form {
+    width: 26px;
+    padding: 10px 0 0 0;
+    min-height: 26px;
+}
+
+.header_img {
+    padding: 5px 0 0 0;
+}
+
+.header_img_burger {
+    padding: 9px 0 0 0
+}
+
+.nav_cart_and_account {
+    display: flex;
+    max-width: 159px;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-content: center;
+}
+
+/* Banner */
+
+.container_banner {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1140px;
+    width: 100%;
+    min-height: inherit;
+    background-image: url(img/BGman.png);
+    background-position: bottom left -150px;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    background-size: contain;
+}
+
+.main_banner {
+    width: 100%;
+    min-height: 764px;
+    background: #F1E4E6;
+    margin: 0 0 65px 0;
+}
+
+
+
+.announcement {
+    align-self: center;
+}
+
+.announcement_text {
+    position: relative;
+    text-transform: uppercase;
+}
+
+.brand {
+    display: block;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+
+.brand_small {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+
+.brand_pink {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #F16D7F;
+}
+
+.announcement_text::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background: #F16D7F;
+    width: 12px;
+    height: 92px;
+    top: 4px;
+    left: -26px;
+}
+
+/* Collections */
+
+.collections {
+    max-width: 1140px;
+    flex-grow: 1;
+    margin: 0 auto;
+}
+
+.collections_grid {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.categories_item {
+    align-content: center;
+    display: flex;
+    width: 100%;
+    max-width: 360px;
+    min-height: 260px;
+    background-size: cover;
+    background-blend-mode: darken;
+    background: rgba(33, 22, 22, 0.7);
+    margin: 0 0 30px 0;
+
+}
+
+.categories_item:nth-child(1) {
+    background-image: url(img/ForWomen.png);
+}
+
+.categories_item:nth-child(2) {
+    background-image: url(img/ForMen.png);
+}
+
+.categories_item:nth-child(3) {
+    background-image: url(img/ForKids.png);
+}
+
+.categories_item:nth-child(4) {
+    max-width: 1140px;
+    height: 180px;
+    width: 100%;
+    background-image: url(img/accesories.png);
+}
+
+.collection_item_link {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+}
+
+.p_collection_item {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.h2_collection_item {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #F16D7F;
+}
